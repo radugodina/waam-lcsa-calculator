@@ -1,10 +1,10 @@
 # WAAM Life Cycle Sustainability Assessment (LCSA) Calculator
 
-Interactive browser-based calculator for the **Life Cycle Assessment (LCA)**, **Life Cycle Costing (LCC)**, and **Social Life Cycle Assessment (S-LCA)** of products made using **Wire Arc Additive Manufacturing (WAAM)**, including a comparison with conventional CNC milling.
+**Version 4** — Interactive browser-based calculator for the **Life Cycle Assessment (LCA)**, **Life Cycle Costing (LCC)**, and **Social Life Cycle Assessment (S-LCA)** of products made using **Wire Arc Additive Manufacturing (WAAM)**, including a comparison with conventional CNC milling.
 
 **Use the interactive calculator:** [https://radugodina.github.io/waam-lcsa-calculator/](https://radugodina.github.io/waam-lcsa-calculator/)
 
-> GitHub Pages must be enabled for this repository (Settings → Pages → Deploy from a branch → `main` / `/(root)`) before the above link works.
+The live application is published with GitHub Pages from the `main` branch, using the repository root.
 
 ## What you can do
 
@@ -36,3 +36,7 @@ See [Technical Notes](TECHNICAL_NOTES.md) for calculation conventions, differenc
 ## Research-use note
 
 This application is a research demonstrator. Its screening estimates and illustrative parameters should not be interpreted as certified environmental declarations, audited manufacturing costs or verified social audits. The standalone calculator does not write values back to the original spreadsheet.
+
+## Run locally
+
+Download or clone this repository and open `index.html` in a modern web browser. No installation or build step is required. Institutional logos are embedded in the HTML; original image assets are also included in `assets/`.
